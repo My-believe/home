@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.clear-fix::after {
+  content: '';
+  font-size: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+html,
+body {
+  width: 100%;
+}
+header {
+  width: 100%;
+  background-color: #ff8a00;
+}
+header .left {
+  float: left;
+  padding: 0.05rem 0rem 0.05rem 0.2rem;
+}
+header .left img {
+  width: 100%;
+  display: block;
+}
+header .right {
+  float: right;
+  padding: 0.1rem 0.1rem 0.05rem 0rem;
+}
+header .right .img-1 {
+  float: left;
+  margin-right: 0.1rem;
+}
+header .right .img-1 img {
+  width: 100%;
+  display: block;
+}
+header .right .img-2 {
+  float: left;
+}
+header .right .img-2 img {
+  width: 100%;
+  display: block;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.clear-fix::after {
+  content: '';
+  font-size: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+main {
+  width: 100%;
+}
+main .banner {
+  width: 100%;
+  position: relative;
+}
+main .banner img {
+  width: 100%;
+  display: block;
+}
+main .banner .search {
+  position: absolute;
+  bottom: 0.3rem;
+  left: 0.8rem;
+  height: 0.3rem;
+  font-size: 0;
+  width: 80%;
+}
+main .banner .search input {
+  width: 80%;
+  height: 0.3rem;
+  padding-left: 0.5rem;
+  background: url(../素材/image/index/seach.jpg) no-repeat 0.1rem 0rem;
+  background-color: #fff;
+  background-size: contain;
+  outline: none;
+  border: none;
+}
+main .icon {
+  width: 100%;
+  height: auto;
+  background-color: #FF8300;
+}
+main .icon ul {
+  display: flex;
+}
+main .icon ul li {
+  padding: 0.12rem 0.1rem 0rem 0.05rem;
+  text-align: center;
+}
+main .icon ul li img {
+  width: 100%;
+}
+main .icon ul li p {
+  font-size: 0.13rem;
+  color: #fff;
+}
+main .news img {
+  width: 100%;
+}
+main .hot .hot-title {
+  height: 0.8rem;
+  background-color: #FF8A00;
+}
+main .hot .hot-title .hot-box {
+  padding-top: 0.1rem;
+}
+main .hot .hot-title .hot-box p {
+  font-size: 0.13rem;
+  color: #fff;
+  padding-left: 0.3rem;
+}
+main .hot .hot-title .hot-box p:first-child {
+  font-size: 0.25rem;
+  margin-bottom: 0.03rem;
+}
+main .hot .uls li {
+  border-bottom: 0.01rem solid #666666;
+}
+main .hot .uls li a {
+  display: block;
+  display: flex;
+  text-decoration: none;
+  color: #000000;
+  padding: 0.3rem 0.3rem;
+}
+main .hot .uls li a .li-img {
+  width: 1rem;
+  height: 1rem;
+}
+main .hot .uls li a .li-img img {
+  width: 100%;
+  display: block;
+  padding-top: 0.1rem;
+}
+main .hot .uls li a .li-txt {
+  font-size: 0.13rem;
+  padding-left: 0.2rem;
+  width: 3rem;
+}
+main .hot .uls li a .li-txt p {
+  padding-bottom: 0.08rem;
+}
+main .hot .uls li a .li-txt .p-lable {
+  font-size: 0.2rem;
+  font-weight: bold;
+}
+main .hot .uls li a .li-txt .p-type {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+main .hot .uls li a .li-txt .p-type .p-type-span {
+  color: #FF8A00;
+}
+main .hot .uls li a .li-txt .p-name {
+  display: flex;
+  justify-content: space-between;
+  color: #999999;
+}
+main .hot .uls li a .li-txt .p-kind {
+  display: flex;
+  color: #999999;
+}
+main .hot .uls li a .li-txt .p-kind .kind-span {
+  display: block;
+  width: 0.5rem;
+  height: 0.2rem;
+  text-align: center;
+  line-height: 0.2rem;
+  background-color: #F4F7F9;
+  margin-right: 0.2rem;
+}
+main .hot .uls li a .li-txt .p-kind .kind-sapn_ {
+  display: block;
+  width: 0.7rem;
+  height: 0.2rem;
+  text-align: center;
+  background-color: #F4F7F9;
+  line-height: 0.2rem;
+}
+main .hot .uls li:last-child {
+  border-bottom: none;
+}
+main .link .link-title {
+  display: flex;
+  border-bottom: 0.01rem solid #FF8A00;
+}
+main .link .link-title p {
+  width: 50%;
+  font-size: 0.2rem;
+  text-align: center;
+  padding: 0.1rem 0rem;
+}
+main .link .link-title p:first-child {
+  color: #FF8A00;
+  border-bottom: 0.01rem solid #FF8A00;
+}
+main .link .link-ul {
+  margin-bottom: 0.2rem;
+}
+main .link .link-ul ul li {
+  float: left;
+  width: 50%;
+}
+main .link .link-ul ul li p {
+  font-size: 0.13rem;
+  padding: 0.1rem 0.2rem 0.1rem 0.3rem;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #2f3130;
+}
+footer .footer-title-box {
+  border-bottom: 0.01rem solid #666666;
+}
+footer .footer-title-box .footer-title {
+  font-size: 0.12rem;
+  color: #999999;
+  padding: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+footer .footer-content-box {
+  margin-top: 0.15rem;
+  margin-bottom: 0.22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-content-box .footer-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0.3rem 0rem 0.3rem;
+}
+footer .footer-content-box .footer-left .imgs {
+  width: 0.37rem;
+  height: 0.43rem;
+}
+footer .footer-content-box .footer-left .imgs img {
+  width: 100%;
+  display: block;
+}
+footer .footer-content-box .footer-left .footer-txt {
+  padding-left: 0.1rem;
+  font-size: 0.12rem;
+  color: #999999;
+}
+footer .text {
+  font-size: 0.12rem;
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.15rem;
+}
+footer .text p:first-child {
+  font-size: 0.14rem;
+  padding-bottom: 0.08rem;
+}
+.fixed {
+  width: 100%;
+  height: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.fixed .fixed-left {
+  width: 5%;
+}
+.fixed .fixed-left img {
+  width: 0.2rem;
+  height: 0.2rem;
+  display: block;
+}
+.fixed .fixed-con {
+  display: flex;
+}
+.fixed .fixed-con .fixed-img {
+  padding: 0.1rem 0.4rem;
+}
+.fixed .fixed-con .fixed-img img {
+  display: block;
+}
+.fixed .fixed-con .fixed-txt {
+  font-size: 0.15rem;
+  color: #fff;
+  padding: 0.1rem 0rem;
+}
+.fixed .fixed-con .fixed-txt p {
+  padding-bottom: 0.1rem;
+}
+.fixed .fixed-con .fixed-txt p:first-child {
+  font-size: 0.2rem;
+}
+.fixed .fixed-right {
+  font-size: 0.25rem;
+  width: 30%;
+  height: 0.8rem;
+  background-color: #FF8A00;
+  color: #fff;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
+}
+.fixed .fixed-right p {
+  position: absolute;
+  right: 0.1rem;
+  bottom: 0.1rem;
+}

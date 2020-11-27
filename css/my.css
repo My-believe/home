@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.clear-fix::after {
+  content: '';
+  display: block;
+  font-size: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.box {
+  background-color: #F5F5F5;
+  width: 100%;
+}
+.box .title {
+  height: 3rem;
+  background: url(../image/my/bg1.png) no-repeat;
+  background-size: 100%;
+}
+.box .title .top {
+  display: flex;
+  justify-content: flex-end;
+}
+.box .title .top .user {
+  margin: 0.2rem 0.2rem;
+}
+.box .title .top .user img {
+  display: block;
+}
+.box .title .top .user p {
+  margin-top: 0.03rem;
+  font-size: 0.13rem;
+  color: #ffffff;
+}
+.box .title .center .imgs {
+  width: 1rem;
+  height: 1rem;
+  margin: 0 auto;
+}
+.box .title .center img {
+  width: 100%;
+  display: block;
+}
+.box .title .center .login {
+  width: 0.8rem;
+  height: 0.3rem;
+  font-size: 0.2rem;
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center;
+  border: 0.01rem solid #ffffff;
+  margin-top: 0.2rem;
+}
+.box .uls {
+  margin-top: 0.15rem;
+  margin-bottom: 2rem;
+}
+.box .uls ul {
+  background-color: #ffffff;
+}
+.box .uls ul li {
+  margin: 0rem 0.2rem 0rem 0.2rem;
+  border-bottom: 0.01rem solid #999999;
+}
+.box .uls ul li a {
+  display: block;
+  color: #000000;
+  font-size: 0.2rem;
+  padding: 0.2rem 0rem 0.2rem 0.6rem;
+}
+.box .uls ul li .home {
+  background: url(../image/my/icon1.png) no-repeat left, url(../image/my/right.png) no-repeat right;
+}
+.box .uls ul li .plot {
+  background: url(../image/my/icon2.png) no-repeat left, url(../image/my/right.png) no-repeat right;
+}
+.box .uls ul li .new {
+  background: url(../image/my/icon3.png) no-repeat left, url(../image/my/right.png) no-repeat right;
+}
+.box .uls ul li .record {
+  background: url(../image/my/icon4.png) no-repeat left, url(../image/my/right.png) no-repeat right;
+}

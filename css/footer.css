@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.clear-fix::after {
+  content: '';
+  font-size: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2f3130;
+}
+footer .xia {
+  border-bottom: 0.01rem solid #666666;
+}
+footer .xia .f-title {
+  font-size: 0.12rem;
+  color: #999999;
+  padding: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+footer .f-box {
+  margin-top: 0.15rem;
+  margin-bottom: 0.22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .f-box .f-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0.3rem 0rem 0.3rem;
+}
+footer .f-box .f-left .imgs {
+  width: 0.37rem;
+  height: 0.43rem;
+}
+footer .f-box .f-left .imgs img {
+  width: 100%;
+  display: block;
+}
+footer .f-box .f-left .f-txt {
+  padding-left: 0.1rem;
+  font-size: 0.12rem;
+  color: #999999;
+}
+footer .text {
+  font-size: 0.12rem;
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.15rem;
+}
+footer .text p:first-child {
+  font-size: 0.14rem;
+  padding-bottom: 0.08rem;
+}
