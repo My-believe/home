@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.clear-fix::after {
+  content: '';
+  font-size: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+html,
+body {
+  width: 100%;
+}
+header {
+  width: 100%;
+  background-color: #ff8a00;
+}
+header .left {
+  float: left;
+  padding: 0.05rem 0rem 0.05rem 0.2rem;
+}
+header .left img {
+  width: 100%;
+  display: block;
+}
+header .right {
+  float: right;
+  padding: 0.1rem 0.1rem 0.05rem 0rem;
+}
+header .right .r-1 {
+  float: left;
+  margin-right: 0.1rem;
+}
+header .right .r-1 img {
+  width: 100%;
+  display: block;
+}
+header .right .r-2 {
+  float: left;
+}
+header .right .r-2 img {
+  width: 100%;
+  display: block;
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.clear-fix::after{
+    content: '';
+    font-size: 0;
+    height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+html,body{
+    // position: relative;
+    width: 100%;
+}
+header{
+    width: 100%;
+    background-color: #ff8a00;
+    .left{
+        float: left;
+        padding: .05rem 0rem .05rem .2rem;
+        img{
+            width: 100%;
+            display: block;
+        }
+    }   
+    .right{
+        float: right;
+        padding: .1rem .1rem .05rem 0rem;
+        .r-1{
+            float: left;
+            margin-right: .1rem;
+            img{
+                width: 100%;
+                display: block;
+            }
+        }
+        .r-2{
+            float: left;
+            img{
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}
+
+
+

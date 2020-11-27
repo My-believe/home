@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.clear-fix::after{
+    content: '';
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.box{
+    background-color: #F5F5F5;
+    width: 100%;
+    .title{
+        height: 3rem;
+        background: url(../image/my/bg1.png) no-repeat;
+        background-size: 100%;
+        .top{
+            display: flex;
+            justify-content: flex-end;
+            .user{
+                margin: .2rem .2rem;
+                img{
+                    display: block;
+                }
+                p{
+                    margin-top: .03rem;
+                    font-size: .13rem;
+                    color: #ffffff;
+                }
+            }
+        }
+        .center{
+            .imgs{
+                width: 1rem;
+                height: 1rem;
+                margin: 0 auto;
+            }
+            img{
+                width: 100%;
+                display: block;
+            }
+            .login{
+                width: 0.8rem;
+                height: 0.3rem;
+                font-size: .2rem;
+                color: #ffffff;
+                margin: 0 auto;
+                text-align: center;
+                border: 0.01rem solid #ffffff;
+                margin-top: .2rem;
+            }
+        }
+    }
+    .uls{
+        margin-top: .15rem;
+        margin-bottom: 2rem;
+        ul{
+            background-color: #ffffff;
+            li{
+                margin:0rem .2rem 0rem .2rem;
+                border-bottom: .01rem solid #999999;
+                a{
+                    display: block;
+                    color: #000000;
+                    font-size: 0.2rem;
+                    padding: .2rem 0rem .2rem .6rem;
+                    
+                }
+                .home{
+                    background: url(../image/my/icon1.png) no-repeat left,url(../image/my/right.png) no-repeat right;
+                }
+                .plot{
+                    background: url(../image/my/icon2.png) no-repeat left,url(../image/my/right.png) no-repeat right;
+                }
+                .new{
+                    background: url(../image/my/icon3.png) no-repeat left,url(../image/my/right.png) no-repeat right;
+                }
+                .record{
+                    background: url(../image/my/icon4.png) no-repeat left,url(../image/my/right.png) no-repeat right;
+                }
+            }
+        }
+    }
+}

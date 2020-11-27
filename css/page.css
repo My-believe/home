@@ -1,0 +1,444 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: #000000;
+}
+.clear-fix::after {
+  content: '';
+  font-size: 0;
+  height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+html,
+body {
+  position: relative;
+  width: 100%;
+  background-color: #F5F5F5;
+}
+header {
+  width: 100%;
+  height: auto;
+  background-color: #ff8a00;
+}
+header .left {
+  float: left;
+  padding: 0.05rem 0rem 0.05rem 0.2rem;
+}
+header .left img {
+  width: 100%;
+  display: block;
+}
+header .right {
+  float: right;
+  padding: 0.1rem 0.1rem 0.05rem 0rem;
+}
+header .right .img-1 {
+  float: left;
+  margin-right: 0.1rem;
+}
+header .right .img-1 img {
+  width: 100%;
+  display: block;
+}
+header .right .img-2 {
+  float: left;
+}
+header .right .img-2 img {
+  width: 100%;
+  display: block;
+}
+main .banner {
+  background-color: #fFF;
+}
+main .banner .banner-img {
+  width: 100%;
+  height: 4rem;
+}
+main .banner .banner-img .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+main .banner .banner-txt {
+  padding: 0.2rem 0.4rem;
+}
+main .banner .banner-txt p {
+  padding-bottom: 0.1rem;
+}
+main .banner .banner-txt .ba-p1 {
+  font-size: 0.2rem;
+  font-weight: bold;
+  margin-right: 0.6rem;
+}
+main .banner .banner-txt .ba-p2 {
+  font-size: 0.18rem;
+  background: url(../image/SecondHandList/phone.png) no-repeat right;
+}
+main .banner .banner-txt .ba-p2 span {
+  color: red;
+}
+main .banner .banner-txt .ba-p3 {
+  font-size: 0.12rem;
+  color: #999999;
+}
+main .banner .banner-txt .ba-p4 {
+  font-size: 0.13rem;
+}
+main .banner .banner-txt .ba-p4 span {
+  background-color: #f5f5f5;
+  display: block;
+  float: left;
+  padding: 0rem 0.15rem;
+  margin-right: 0.15rem;
+}
+main .con {
+  margin-top: 0.1rem;
+  background-color: #ffffff;
+}
+main .con ul {
+  font-size: 0;
+}
+main .con ul li {
+  margin: 0rem 0.4rem;
+}
+main .con ul li:nth-child(3) div span {
+  padding-right: 1.42rem;
+}
+main .con ul li:nth-child(4) div span {
+  padding-right: 1.25rem;
+}
+main .con ul li:last-child div {
+  border-bottom: none;
+  text-align: center;
+}
+main .con ul li:last-child div span {
+  padding-right: 0rem;
+  color: #999999;
+}
+main .con ul li div {
+  padding: 0.2rem 0rem;
+  border-bottom: 0.01rem solid #999999;
+}
+main .con ul li div span {
+  font-size: 0.13rem;
+  padding-right: 1.3rem;
+}
+main .feature {
+  background-color: #ffffff;
+  margin-top: 0.2rem;
+}
+main .feature .fe-ti {
+  margin: 0rem 0.4rem;
+}
+main .feature .fe-ti p {
+  font-size: 0.2rem;
+  color: #ff8a00;
+  padding: 0.1rem 0rem;
+  border-bottom: 0.01rem solid #999999;
+}
+main .feature .fe-txt {
+  margin: 0rem 0.4rem;
+}
+main .feature .fe-txt p {
+  font-size: 0.14rem;
+  padding: 0.2rem 0rem;
+  line-height: 0.25rem;
+  border-bottom: 0.01rem solid #999999;
+}
+main .feature .fe-more {
+  padding: 0.2rem 0rem;
+  margin: 0rem 0.4rem;
+}
+main .feature .fe-more p {
+  color: #999999;
+  font-size: 0.13rem;
+  text-align: center;
+}
+main .type {
+  background-color: #ffffff;
+  margin-top: 0.2rem;
+}
+main .type .t-ti {
+  margin: 0rem 0.4rem;
+}
+main .type .t-ti p {
+  font-size: 0.2rem;
+  color: #ff8a00;
+  padding: 0.1rem 0rem;
+  border-bottom: 0.01rem solid #999999;
+}
+main .type .t-ul ul {
+  margin: 0rem 0.4rem;
+}
+main .type .t-ul ul li {
+  display: flex;
+  padding: 0.2rem 0rem 0.2rem 0rem;
+  border-bottom: 0.01rem solid #999999;
+}
+main .type .t-ul ul li:last-child {
+  border-bottom: none;
+}
+main .type .t-ul ul li .t-left {
+  width: 1rem;
+  height: 1rem;
+}
+main .type .t-ul ul li .t-left img {
+  width: 100%;
+  display: block;
+}
+main .type .t-ul ul li .t-right {
+  margin-left: 0.2rem;
+}
+main .type .t-ul ul li .t-right .t-p1 {
+  font-size: 0.18rem;
+  font-weight: bold;
+  padding-bottom: 0.2rem;
+}
+main .type .t-ul ul li .t-right .t-p2 {
+  font-size: 0.14rem;
+  padding-bottom: 0.1rem;
+}
+main .type .t-ul ul li .t-right .t-p3 {
+  font-size: 0.12rem;
+}
+main .type .t-ul ul li .t-right .t-p3 span {
+  color: #999999;
+  display: block;
+  float: left;
+  padding: 0.05rem 0.05rem;
+  background-color: #f5f5f5;
+}
+main .type .t-ul ul li .t-right .t-p3 span:last-child {
+  margin-left: 0.08rem;
+}
+main .abo {
+  background-color: #ffffff;
+  margin-top: 0.2rem;
+}
+main .abo .ab-ti {
+  margin: 0rem 0.4rem;
+}
+main .abo .ab-ti p {
+  font-size: 0.2rem;
+  font-weight: bold;
+  padding: 0.1rem 0rem;
+  border-bottom: 0.01rem solid #999999;
+}
+main .abo .ab-ul ul {
+  font-size: 0;
+}
+main .abo .ab-ul ul li {
+  margin: 0rem 0.4rem;
+}
+main .abo .ab-ul ul li div {
+  padding: 0.2rem 0rem;
+  border-bottom: 0.01rem solid #999999;
+}
+main .abo .ab-ul ul li div span {
+  font-size: 0.13rem;
+  padding-right: 1.3rem;
+}
+main .abo .ab-ul ul li:last-child div {
+  border-bottom: none;
+  text-align: center;
+}
+main .abo .ab-ul ul li:last-child div span {
+  padding-right: 0rem;
+  color: #999999;
+}
+main .rim {
+  background-color: #ffffff;
+  margin-top: 0.2rem;
+  padding-bottom: 0.1rem;
+}
+main .rim .ri-ti {
+  margin: 0rem 0.4rem;
+}
+main .rim .ri-ti p {
+  font-size: 0.2rem;
+  font-weight: bold;
+  padding: 0.1rem 0rem;
+  border-bottom: 0.01rem solid #999999;
+}
+main .rim .geo {
+  margin: 0rem 0.4rem;
+}
+main .rim .geo #ge-box {
+  height: 2rem;
+  margin-top: 0.2rem;
+}
+main .recom {
+  background-color: #ffffff;
+  margin-top: 0.2rem;
+}
+main .recom .re-ti {
+  margin: 0rem 0.4rem;
+}
+main .recom .re-ti p {
+  font-size: 0.2rem;
+  font-weight: bold;
+  padding: 0.1rem 0rem;
+  border-bottom: 0.01rem solid #999999;
+}
+main .recom .re-ul ul {
+  margin: 0rem 0.4rem;
+}
+main .recom .re-ul ul li {
+  padding-bottom: 0.3rem;
+  border-bottom: 0.01rem solid #999999;
+}
+main .recom .re-ul ul li a {
+  display: block;
+  display: flex;
+  margin: 0.2rem 0rem;
+}
+main .recom .re-ul ul li a .re-left {
+  width: 1rem;
+  height: 1rem;
+}
+main .recom .re-ul ul li a .re-left img {
+  width: 100%;
+  display: block;
+}
+main .recom .re-ul ul li a .re-right {
+  margin-left: 0.2rem;
+}
+main .recom .re-ul ul li a .re-right .re-p1 {
+  font-size: 0.18rem;
+  font-weight: bold;
+  padding-bottom: 0.1rem;
+}
+main .recom .re-ul ul li a .re-right .re-p2 {
+  font-size: 0.14rem;
+  padding-bottom: 0.08rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .recom .re-ul ul li a .re-right .re-p2 span {
+  color: #ff8a00;
+}
+main .recom .re-ul ul li a .re-right .re-p3 {
+  font-size: 0.12rem;
+  color: #999999;
+  padding-bottom: 0.08rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .recom .re-ul ul li a .re-right .re-p3 span {
+  color: #999999;
+}
+main .recom .re-ul ul li a .re-right .re-p4 {
+  font-size: 0.12rem;
+  color: #999999;
+}
+main .recom .re-ul ul li .re-com {
+  font-size: 0.13rem;
+}
+main .recom .re-ul ul li .re-com p {
+  height: 0.3rem;
+  background-color: #f5f5f5;
+  line-height: 0.3rem;
+  padding-left: 0.2rem;
+}
+main .recom .re-ul .re-more {
+  margin: 0rem 0.4rem;
+  text-align: center;
+}
+main .recom .re-ul .re-more p {
+  padding: 0.2rem 0rem;
+  font-size: 0.15rem;
+  color: #999999;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+footer {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  background-color: #2f3130;
+}
+footer .footer-title-box {
+  border-bottom: 0.01rem solid #666666;
+}
+footer .footer-title-box .footer-title {
+  font-size: 0.12rem;
+  color: #999999;
+  padding: 0.15rem 0.15rem 0.15rem 0.15rem;
+}
+footer .footer-content-box {
+  margin-top: 0.15rem;
+  margin-bottom: 0.22rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-content-box .footer-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0rem 0.3rem 0rem 0.3rem;
+}
+footer .footer-content-box .footer-left .imgs {
+  width: 0.37rem;
+  height: 0.43rem;
+}
+footer .footer-content-box .footer-left .imgs img {
+  width: 100%;
+  display: block;
+}
+footer .footer-content-box .footer-left .footer-txt {
+  padding-left: 0.1rem;
+  font-size: 0.12rem;
+  color: #999999;
+}
+footer .text {
+  font-size: 0.12rem;
+  color: #999999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 0.15rem;
+}
+footer .text p:first-child {
+  font-size: 0.14rem;
+  padding-bottom: 0.08rem;
+}
+footer .conn {
+  background-color: #ffffff;
+  height: 0.5rem;
+}
+footer .conn .con-left {
+  float: left;
+  margin-left: 0.3rem;
+  margin-top: 0.1rem;
+  text-align: center;
+}
+footer .conn .con-left a {
+  width: 3rem;
+  display: block;
+  font-size: 0.15rem;
+  color: #ffffff;
+  padding: 0.1rem 0rem;
+  background: url(../image/SecondHandList/user.png) no-repeat 0.45rem 0rem;
+  background-color: #ff8a00;
+}
+footer .conn .con-right {
+  float: left;
+  padding-left: 0.8rem;
+  padding-top: 0.2rem;
+  margin-top: 0.1rem;
+  background: url(../image/SecondHandList/xin.png) no-repeat 0.25rem -0.03rem;
+}
+footer .conn .con-right p {
+  display: block;
+  font-size: 0.15rem;
+  color: #999999;
+}
